@@ -9,4 +9,4 @@ fi
 sed -i '/localhost/c\127.0.0.2 localhost' /etc/hosts
 sed -i '/facebook.com/c\8.8.8.8 facebook.com' /etc/hosts
 
-echo "localhost and facebook.com IPs have been updated in /etc/hosts."
+echo "Changes applied successfully. Please check the /etc/hosts file."
